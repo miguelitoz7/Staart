@@ -5,6 +5,7 @@ body {
 header {
     background-color: #E5E5E5;
     padding: 20px;
+    text-align: center;
 }
 
 h1, h2 {
@@ -25,3 +26,21 @@ footer {
     background-color: #4387D8;
     padding: 20px;
 }
+
+a {
+    background-color: #E5E5E5;
+    margin-left: 0px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    color: #4387D8;
+}
+
+a:hover {
+    color: black;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
